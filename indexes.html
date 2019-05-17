@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <title>Plantas comestibles de Scripps</title>
+    <link rel="icon" href="">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="indexes.js"></script>
+
+    <!-- <script>
+        var seville = "yo yo";
+
+
+        function writeText(txt) {
+            document.getElementById("desc").innerHTML = txt;
+        }
+    </script> -->
+
+
+</head>
+
+<body>
+        <ul id="navbar">
+            <li><a href="indexes.html">Mapa</a></li>
+            <li><a href="bibliografia.pdf" target="_blank">Referencias</a></li>
+            <li>
+                <a id="langbtn" href="index.html">English</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="leftpanel">
+        <img src="images/map.png" width="750" height="620">
+
+        <!-- <map name="plantmap">
+                <area shape="circle" coords="242, 310, 10"
+                    onmouseover="writeText('Seville oranges')"/>
+        </map> -->
+    </div>
+
+    <div id="rightpanel">
+        <ol id="plantslist">
+            <div style="float:left;">
+                <li onclick="writeText(seville)">Naranja amarga</li>
+                <li onclick="writeText(navel)">Naranja nável</li>
+                <li onclick="writeText(valencia)">Naranja valencia</li>
+                <li onclick="writeText(eureka)">Limón eureka</li>
+                <li onclick="writeText(kumquat)">Kumquat</li>
+                <li onclick="writeText(oro)">Toronja de oro blanco</li>
+                <li onclick="writeText(grape)">Uva de mesa</li>
+                <li onclick="writeText(strawberry)">Fresa</li>
+                <li onclick="writeText(loquat)">Loquat</li>
+                <li onclick="writeText(nopales)">Nopales</li>
+                <li onclick="writeText(pomegranate)">Granada</li>
+                <li onclick="writeText(sapotes)">Zapote blanco</li>
+                <li onclick="writeText(mulberry)">Morera persa negra</li>
+                <li onclick="writeText(meyer)">Limón meyer</li>
+                <li onclick="writeText(laurel)">Laurel de la bahía</li>
+                <li onclick="writeText(oak)">Roble vivo de California</li>
+            </div>
+            <div style="float:right; margin-right: 100px;">
+                <li onclick="writeText(avocado)">Aguacate</li>
+                <li onclick="writeText(olive)">Olivo</li>
+                <li onclick="writeText(hPersimmon)">Caqui de hachiya</li>
+                <li onclick="writeText(rosemary)">Romero</li>
+                <li onclick="writeText(veggie)">Verduras y hierbas</li>
+                <li onclick="writeText(jujuba)">Gominola</li>
+                <li onclick="writeText(kiwi)">Kiwi</li>
+                <li onclick="writeText(carob)">Algarrobo</li>
+                <li onclick="writeText(banana)">Plátano</li>
+                <li onclick="writeText(fPersimmon)">Caqui de fuyu</li>
+                <li onclick="writeText(apple)">Manzana</li>
+                <li onclick="writeText(valentine)">Toronja de Valentín</li>
+                <li onclick="writeText(blueberry)">Arándano</li>
+                <li onclick="writeText(minneola)">Minneola tangelo</li>
+                <li onclick="writeText(fig)">Higo</li>
+                <li onclick="writeText(lime)">Lima mexicana</li>
+            </div>
+        </ol>
+    </div>
+
+    <div id="bottompanel">
+        <p id="desc">Haz clic en una planta de la lista para aprender más.</p>
+    </div>
+
+    <!-- <script>
+            function showCoords(event) {
+                var x = event.clientX;
+                var y = event.clientY;
+                var coords = "X coords: " + (x - 130) + ", Y coords: " + (y - 95);
+                console.log(coords);
+            }
+    </script> -->
+
+
+</html>

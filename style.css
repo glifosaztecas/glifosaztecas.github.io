@@ -1,0 +1,114 @@
+body
+{
+    background-color: rgb(246, 252, 246);
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.button
+{
+    background-color: rgb(241, 250, 241);
+}
+
+.button:hover
+{
+    background-color: rgb(196, 214, 196);
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+ol
+{
+    font-size: 110%;
+}
+
+li a
+{
+    float: left;
+    display: block;
+    color:rgb(99, 117, 99);
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover
+{
+    background-color: rgb(131, 170, 131);
+    color: white;
+}
+
+img
+{
+    display: block;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+p
+{
+    color: gray;
+}
+
+#navbar
+{
+    background-color: rgb(238, 245, 238);
+    width: 100%;
+    font-size: 150%;
+}
+
+#langbtn
+{
+    float: right;
+    margin-right: 25px;
+}
+
+#leftpanel
+{
+    float: left;
+    width: 60%;
+    height: 100%;
+    padding-bottom: 10px;
+
+}
+
+#rightpanel
+{
+    float: right;
+    width: 40%;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+#bottompanel
+{
+    float: bottom;
+    margin-left: 40px;
+    margin-right: 60px;
+}
+
+#plantslist
+{
+    padding-top:50px;
+}
+
+/* #plantslist li
+{
+    padding: 4px;
+} */
+
+#plantslist li:hover
+{
+    color: gray;
+}
+
+#plantslist li:active
+{
+    color: rgb(185, 185, 185);
+}

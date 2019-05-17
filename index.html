@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Scripps Edible Plant Map</title>
+    <link rel="icon" href="">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="index.js"></script>
+
+    <!-- <script>
+        var seville = "yo yo";
+
+
+        function writeText(txt) {
+            document.getElementById("desc").innerHTML = txt;
+        }
+    </script> -->
+
+
+</head>
+
+<body>
+        <ul id="navbar">
+            <li><a href="index.html">Map</a></li>
+            <li><a href="bibliografia.pdf" target="_blank">References</a></li>
+            <li>
+                <a id="langbtn" href="indexes.html">Español</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="leftpanel">
+        <img src="images/map.png" width="750" height="620">
+
+        <!-- <map name="plantmap">
+                <area shape="circle" coords="242, 310, 10"
+                    onmouseover="writeText('Seville oranges')"/>
+        </map> -->
+    </div>
+
+    <div id="rightpanel">
+        <ol id="plantslist">
+            <div style="float:left;">
+                <li onclick="writeText(seville)">Seville oranges</li>
+                <li onclick="writeText(navel)">Navel oranges</li>
+                <li onclick="writeText(valencia)">Valencia oranges</li>
+                <li onclick="writeText(eureka)">Eureka lemons</li>
+                <li onclick="writeText(kumquat)">Kumquats</li>
+                <li onclick="writeText(oro)">Oro blanco grapefruit</li>
+                <li onclick="writeText(grape)">Table grapes</li>
+                <li onclick="writeText(strawberry)">Strawberry</li>
+                <li onclick="writeText(loquat)">Loquats</li>
+                <li onclick="writeText(nopales)">Nopales</li>
+                <li onclick="writeText(pomegranate)">Pomegranates</li>
+                <li onclick="writeText(sapotes)">White sapotes</li>
+                <li onclick="writeText(mulberry)">Black Persian mulberry</li>
+                <li onclick="writeText(meyer)">Meyer lemon</li>
+                <li onclick="writeText(laurel)">Bay laurel</li>
+                <li onclick="writeText(oak)">California live oak</li>
+            </div>
+            <div style="float:right; margin-right: 100px;">
+                <li onclick="writeText(avocado)">Avocado</li>
+                <li onclick="writeText(olive)">Olives</li>
+                <li onclick="writeText(hPersimmon)">Hachiya persimmon</li>
+                <li onclick="writeText(rosemary)">Rosemary</li>
+                <li onclick="writeText(veggie)">Veggies & herbs</li>
+                <li onclick="writeText(jujuba)">Jujube</li>
+                <li onclick="writeText(kiwi)">Kiwi</li>
+                <li onclick="writeText(carob)">Carob tree</li>
+                <li onclick="writeText(banana)">Banana</li>
+                <li onclick="writeText(fPersimmon)">Fuyu persimmon</li>
+                <li onclick="writeText(apple)">Apple</li>
+                <li onclick="writeText(valentine)">Valentine grapefruit</li>
+                <li onclick="writeText(blueberry)">Blueberries</li>
+                <li onclick="writeText(minneola)">Minneola tangelos</li>
+                <li onclick="writeText(fig)">Figs</li>
+                <li onclick="writeText(lime)">Mexican key limes</li>
+            </div>
+        </ol>
+    </div>
+
+    <div id="bottompanel">
+        <p id="desc">Click on a plant from the list to learn more about it.</p>
+    </div>
+
+    <!-- <script>
+            function showCoords(event) {
+                var x = event.clientX;
+                var y = event.clientY;
+                var coords = "X coords: " + (x - 130) + ", Y coords: " + (y - 95);
+                console.log(coords);
+            }
+    </script> -->
+
+
+</html>
